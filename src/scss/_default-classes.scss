@@ -1,0 +1,38 @@
+//Flex
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-sb{
+  justify-content: space-between;
+}
+
+.justify-sa{
+  justify-content: space-around;
+}
+
+.align-center{
+  align-items: center;
+}
+
+//position
+.fixed-to-top{
+  position: fixed;
+  z-index:99;
+  top: 0;
+}
+
+//Text
+.ttu{
+  text-transform: uppercase;
+}
+
+//border-radius
+.first-ch-border{
+  border-radius: 0 0 0 30px;
+}
+
+.last-ch-border{
+  border-radius: 0 30px 0 0;
+}
