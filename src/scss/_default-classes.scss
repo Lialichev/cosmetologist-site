@@ -28,6 +28,13 @@
   text-transform: uppercase;
 }
 
+.title{
+  font-size: 45px;
+  font-family:'Open Sans', sans-serif;
+  color: $pink;
+  text-transform: uppercase;
+}
+
 //border-radius
 .first-ch-border{
   border-radius: 0 0 0 30px;
@@ -35,4 +42,9 @@
 
 .last-ch-border{
   border-radius: 0 30px 0 0;
+}
+
+//section
+.default-section{
+  padding: 100px;
 }

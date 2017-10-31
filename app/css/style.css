@@ -77,6 +77,12 @@ button {
 .ttu {
   text-transform: uppercase; }
 
+.title {
+  font-size: 45px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ff6e8d;
+  text-transform: uppercase; }
+
 .first-ch-border {
   -webkit-border-radius: 0 0 0 30px;
           border-radius: 0 0 0 30px; }
@@ -84,6 +90,9 @@ button {
 .last-ch-border {
   -webkit-border-radius: 0 30px 0 0;
           border-radius: 0 30px 0 0; }
+
+.default-section {
+  padding: 100px; }
 
 .btn {
   font-size: 18px;
@@ -179,27 +188,46 @@ button {
     position: static;
     text-align: left;
     padding: 0;
-    text-shadow: none;
-    height: 500px; }
+    text-shadow: none; }
     .sale .carousel-inner .carousel-caption .carousel-img-bottom {
       margin-top: -20px; }
     .sale .carousel-inner .carousel-caption img {
       width: 70%; }
-    .sale .carousel-inner .carousel-caption .carousel-description .title-carousel a {
-      font-size: 45px;
-      color: #ff6e8d; }
-    .sale .carousel-inner .carousel-caption .carousel-description p {
-      color: #000;
-      margin-top: 40px;
-      font-family: 'Open Sans', sans-serif;
-      font-size: 18px; }
-    .sale .carousel-inner .carousel-caption .carousel-description ul {
-      margin-top: 30px; }
+    .sale .carousel-inner .carousel-caption .carousel-description {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-align-content: space-between;
+          -ms-flex-line-pack: justify;
+              align-content: space-between;
+      min-height: 490px;
+      -webkit-box-align: start;
+      -webkit-align-items: flex-start;
+          -ms-flex-align: start;
+              align-items: flex-start; }
+      .sale .carousel-inner .carousel-caption .carousel-description .title-carousel a {
+        font-size: 45px;
+        color: #ff6e8d; }
+      .sale .carousel-inner .carousel-caption .carousel-description p {
+        color: #000;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px; }
       .sale .carousel-inner .carousel-caption .carousel-description ul li {
         color: #000;
         font-size: 17px; }
-    .sale .carousel-inner .carousel-caption .carousel-description .btn {
-      margin-top: 30px; }
   .sale .carousel-indicators {
     bottom: -62px; }
     .sale .carousel-indicators li {

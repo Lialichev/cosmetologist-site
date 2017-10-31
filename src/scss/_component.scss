@@ -7,7 +7,7 @@
   font-family: 'Oswald', sans-serif;
   background-color: transparent;
 
-  &.default-btn{
+  &.default-btn {
     padding: 7px 20px;
     color: $colorBtn;
   }
@@ -17,7 +17,7 @@
     color: $white;
   }
 
-  &.active-btn{
+  &.active-btn {
     padding: 15px 40px;
     color: $colorBtn;
   }
@@ -125,49 +125,51 @@
 //main
 .sale {
   padding: 100px 0;
+
   .carousel-inner {
 
-      .carousel-caption {
-        position: static;
-        text-align: left;
-        padding: 0;
-        text-shadow: none;
-        height: 500px;
+    .carousel-caption {
+      position: static;
+      text-align: left;
+      padding: 0;
+      text-shadow: none;
 
-        .carousel-img-bottom{
-          margin-top: -20px;
-        }
+      .carousel-img-bottom {
+        margin-top: -20px;
+      }
 
-        img{
-          width: 70%;
-        }
+      img {
+        width: 70%;
+      }
 
-        .carousel-description{
+      .carousel-description {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: space-between;
+        min-height: 490px;
+        align-items: flex-start;
 
-          .title-carousel{
-            a{
-              font-size: 45px;
-              color: $pink;
-            }
+        .title-carousel {
+          a {
+            font-size: 45px;
+            color: $pink;
           }
-          p{
+        }
+        p {
+          color: #000;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 18px;
+        }
+        ul {
+          li {
             color: #000;
-            margin-top: 40px;
-            font-family:'Open Sans', sans-serif;
-            font-size: 18px;
-          }
-          ul{
-            margin-top: 30px;
-            li{
-              color: #000;
-              font-size: 17px;
-            }
-          }
-          .btn{
-            margin-top: 30px;
+            font-size: 17px;
           }
         }
       }
+    }
   }
 
   .carousel-indicators {
@@ -188,16 +190,16 @@
   }
 }
 
-.free-consultation{
+.free-consultation {
   background: fixed url(../img/bottom-header.jpg) no-repeat center / cover;
   padding: 100px 0;
 
-  .title-consultation{
-    p{
+  .title-consultation {
+    p {
       font-size: 50px;
     }
   }
-  button{
+  button {
     margin-top: 30px;
   }
 }
